@@ -1,0 +1,40 @@
+.bubble-outer-container {
+  position: absolute;
+}
+
+.bubble-container {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bubble-container:hover {
+  height: 80px;
+  width: 80px;
+  margin-left: -10px;
+  margin-top: -10px;
+  .bubble-content {
+    font-size: 22px;
+    line-height: 100px;
+  }
+}
+
+.bubble-label {
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.bubble-content {
+  text-align: center;
+  line-height: 70px;
+  height:100%;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Ryan_React_Site",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^12.0.1",
+    "del": "^2.1.0",
+    "font-awesome": "^4.4.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-draggable": "^1.1.3",
+    "react-fontawesome": "^0.3.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
